@@ -85,7 +85,7 @@ function Navbar() {
               </Link>
               <Link
                 id="navBar-btn-contacts"
-                to="https://t.me/cubixcasino"
+                to="https://t.me/+C3oQk68PZgJjMGJh"
                 className="nav-link"
               >
                 Community
