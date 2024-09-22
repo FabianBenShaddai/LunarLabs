@@ -55,7 +55,7 @@ function NavBarBottomHome({ upcoming, setUpcoming }) {
 					</svg>
 				</div>
 			</div>
-			<h1>Upcomming IDOs</h1>
+			<h1>Upcoming IDOs</h1>
 		</div>
 	);
 }

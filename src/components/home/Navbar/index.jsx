@@ -70,11 +70,6 @@ function Navbar() {
         {/* <div className='pixeles'>Pixeles</div> */}
         <div className="navBar">
           <div className="container-img-btn">
-            <img
-              src={LunarLab}
-              alt="LunarLab"
-              className="navBar-iconoLunarLab"
-            />
             <div className="icon" onClick={() => setOpen(!open)}>
               <IoListOutline />
             </div>
@@ -82,7 +77,7 @@ function Navbar() {
 
           <div className="navBar-iconosNavBar">
             <div className="navBarLinks">
-              <Link to="/home" className={`nav-link ${homeLinkClass}`}>
+              <Link>
                 Home
               </Link>
               <Link id="navBar-btn-whitepaper" to="" className="nav-link">
@@ -90,14 +85,12 @@ function Navbar() {
               </Link>
               <Link
                 id="navBar-btn-contacts"
-                to="/contacts"
+                to="https://t.me/cubixcasino"
                 className="nav-link"
               >
-                Contacts
+                Community
               </Link>
-              <Link id="navBar-btn-faq" to="" className="nav-link">
-                FAQ
-              </Link>
+
             </div>
             <div className="connectButtom">
               <CustomConnectButtom container={style.OpenContainer} />

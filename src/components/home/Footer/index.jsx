@@ -12,9 +12,8 @@ function Footer() {
 			<hr className={styles.hrFooter}/>
 			<div className={styles.wraperAboutNav}>
 				<div className={styles.about}>
-					<img src={icon} alt="icon lunarLab" />
 					<p>
-						LunarLab is the launchpad for IDO, where our mission is to connect
+						LazyLoonies is the launchpad for IDO, where our mission is to connect
 						highly vetted founders with brilliant ideas for curated projects and
 						crowdfunded deals and best-in-class incubation tools and advisors to
 						bring the vision of founders and creators to life. the benefit of
@@ -26,7 +25,7 @@ function Footer() {
 					<ul>
 						<li>Upcoming Projects</li>
 						<li>Staking</li>
-						<li>Buy $AIR</li>
+						<li>Buy $Lazy</li>
 					</ul>
 				</nav>
 			</div>
@@ -48,7 +47,6 @@ function Footer() {
 						<img src={tiktok} alt="tiktok" />
 					</li>
 				</ul>
-				<p>© 2023 PD LunarLab.</p>
 			</div>
 		</footer>
 	);
