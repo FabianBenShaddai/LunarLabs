@@ -83,14 +83,15 @@ function Navbar() {
               <Link id="navBar-btn-whitepaper" to="" className="nav-link">
                 Whitepaper
               </Link>
-              <Link
+             <a
                 id="navBar-btn-contacts"
-                to="https://t.me/+TAqlN_SrcDE0ZGRh"
+                href="https://t.me/+TAqlN_SrcDE0ZGRh"
                 className="nav-link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Community
-              </Link>
-
+              </a>
             </div>
             <div className="connectButtom">
               <CustomConnectButtom container={style.OpenContainer} />
