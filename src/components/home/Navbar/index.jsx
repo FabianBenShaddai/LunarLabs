@@ -85,7 +85,7 @@ function Navbar() {
               </Link>
               <Link
                 id="navBar-btn-contacts"
-                to="https://t.me/+C3oQk68PZgJjMGJh"
+                to="https://t.me/+TAqlN_SrcDE0ZGRh"
                 className="nav-link"
               >
                 Community
